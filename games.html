@@ -21,37 +21,45 @@
    
 -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!doctype html>
 <html>
-    <head>
-        <title>Awesomenium</title>
-        <link type="text/css" rel="stylesheet" href="Stylesheet.css">
-    </head>
-    <body>
-    	<!-- <header>
-    		<span class="banner">
-    			<img src="http://www.wallpick.com/wp-content/uploads/2013/12/12/black-windows_54293.jpg" height="150" width="100%"/>
-    		</span>
-    	</header> -->
-		<div style="height:64px; background-color:#071418">
-			<a href=Awesomenium.html>
-				<img src="http://i.imgur.com/nPoAKYg.png"
-			</a>
-			<a href="http://www.reddit.com/r/Awesomenium/">
-				<img src="http://1-media-cdn.foolz.us/ffuuka/board/q/image/1367/87/1367878204594.png">
-			</a>
-			<a class="about" href="Awesomenium_About.html">
-				<img src="http://i.imgur.com/D9teZvz.png"
-				onmouseover="this.src='http://i.imgur.com/zDun42e.png'"
-				onmouseout="this.src='http://i.imgur.com/D9teZvz.png'"
-			</a>
-		</div>
-		<!--
-        <p >We're a company that makes games!</p>
-        <p >Our first game were made in a program called game maker!</p>
-        <p >At the moment we use unity for our games!</p>
-        -->
-         <iframe width="840" height="472" src="http://www.youtube.com/embed/zR7gp-zFJPY" frameborder="0" allowfullscreen></iframe>
-    </body>
-</html> 
+  <head>
+    <title>Awesomenium</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header class="navbar-inverse" role="banner" id="navibar">
+      <!--<div class="container">-->
+        <nav role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand active" href="index.html">Awesomenium</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="Awesomenium_Games">Games</a></li>
+                <li class="active"><a href="Awesomenium_About.html">About</a></li>
+                <li><a href="Awesomenium_Conact.html">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        <!--</div>-->
+      </nav>
+    </header>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
