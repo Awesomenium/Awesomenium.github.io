@@ -1,19 +1,6 @@
-.darkBG {
-	background: #999;
+body {
+	background-color: #333;
 }
-.darkerBG {
-	background: #666;
-}
-.darkestBG {
-	background: #333;
-}
-#myCarousel {
-	height:auto;
-}
-#navibar {
-	border-radius: 0px
-	box-shadow: 0px 0px 3px 3px;
-}
-.cantant {
-	margin-top: 1.5em;
+.right-arrow-img {
+	background-image: url(http://www.clker.com/cliparts/V/1/Z/A/h/U/left-arrow-right-md.png);
 }

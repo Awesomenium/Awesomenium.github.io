@@ -274,10 +274,10 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #444;
+  background-color: #333;
 }
 input,
 button,
@@ -751,7 +751,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1610px;
   }
 }
 .container-fluid {
@@ -2374,7 +2374,7 @@ input[type="button"].btn-block {
           transition: height .35s ease;
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
+  font-family: 'cGlyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
@@ -3459,7 +3459,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 40px;
+  padding: 10px 26px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3740,7 +3740,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 18px;
+  margin-left: 150px;
+  font-size: 28px;
   line-height: 20px;
 }
 .navbar-brand:hover,
@@ -3825,7 +3826,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-bottom: 15px;
   }
   .navbar-nav.navbar-right:last-child {
-    margin-right: -15px;
+    margin-right: 115px;
   }
 }
 @media (min-width: 768px) {
@@ -4021,13 +4022,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #333;
 }
 .navbar-inverse {
-  background-color: #333;
+  background-color: #a3a3a3;
   border-color: #080808;
-  box-shadow: 0px 0px 10px 0px #000;
+  box-shadow: 0px 0px 0px 0px #000;
   border-radius: 0px
 }
 .navbar-inverse .navbar-brand {
-  color: #999;
+  color: #e1e1e1;
 }
 .navbar-inverse .navbar-brand {
   transition: color 0.5s;
@@ -4041,7 +4042,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #999;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #999;
+  color: #e1e1e1;
   transition: color 0.5s;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
